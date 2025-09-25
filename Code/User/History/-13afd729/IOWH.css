@@ -1,0 +1,49 @@
+@define-color foreground #eb2f00;
+@define-color foreground-inactive #7f8c8d;
+@define-color background #212121;
+
+* {
+    font-family: monospace;
+    font-size: 20px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin: 0;
+}
+
+#waybar {
+    color: @foreground;
+    background-color: rbga(21, 21, 21, 0.4);
+}
+
+#workspaces button {
+    color: @foreground;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+#workspaces button.empty {
+    color: @foreground-inactive;
+}
+
+#workspaces button.active {
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+#wireplumber,
+#bat,
+#tray,
+#usage,
+#net {
+    border-radius: 3px;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    margin-left: 0.3em;
+}
+
+#battery,
+#memory,
+#language,
+#network {
+    margin-right: 0.8em;
+}

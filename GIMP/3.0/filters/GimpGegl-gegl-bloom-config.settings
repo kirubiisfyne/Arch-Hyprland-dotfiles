@@ -1,0 +1,33 @@
+# settings
+
+(GimpGegl-gegl-bloom-config "2025-07-29 13:06:35"
+    (time 1753765595)
+    (gimp-mode lighten-only)
+    (threshold 80)
+    (softness 11.640000000000001)
+    (radius 3)
+    (strength 72.969999999999999)
+    (limit-exposure yes))
+(GimpGegl-gegl-bloom-config "2025-07-29 13:02:00"
+    (time 1753765320)
+    (threshold 80)
+    (softness 11.640000000000001)
+    (radius 3)
+    (strength 72.969999999999999)
+    (limit-exposure yes))
+(GimpGegl-gegl-bloom-config "2025-07-23 12:11:03"
+    (time 1753243863)
+    (threshold 88)
+    (softness 9.6099999999999994)
+    (radius 6.8099999999999996)
+    (strength 59.520000000000003)
+    (limit-exposure yes))
+(GimpGegl-gegl-bloom-config "2025-07-22 19:53:55"
+    (time 1753185235)
+    (threshold 41.350000000000001)
+    (softness 11.48)
+    (radius 6.2300000000000004)
+    (strength 24.57)
+    (limit-exposure no))
+
+# end of settings

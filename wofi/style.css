@@ -1,0 +1,72 @@
+@define-color foreground #eb2f00;
+@define-color foreground-inactive #818181;
+@define-color background #212121;
+@define-color alternative #fde74c;
+
+
+window {
+    padding: 0px;
+    border: 2px solid @foreground;
+    background-color: @background;
+}
+
+#input {
+    color: @foreground;
+    font-weight: bold;
+    font-family: monospace;
+
+    margin: 2px 2px 1px;
+    border: 1px solid @foreground;
+    background-color: @background;
+    border-radius: 0px;
+}
+
+#input:focus {
+    box-shadow: none;
+}
+
+
+#inner-box {
+    margin: 2px 2px 1px;
+    background-color: @background;
+}
+
+#outer-box {
+    margin: 2px 2px 2px;
+    padding: 2px 2px 2px;
+    background-color: @background;
+    overflow: hidden;
+}
+
+#scroll {
+    border: none;
+}
+
+#enrty {
+    padding: 10px 5px 10px
+}
+
+#entry:selected {
+    background: none;
+    box-shadow: none;
+    border: none;
+}
+
+#enrty:focus {
+    border: none;
+}
+
+#text {
+    color: @foreground;
+    font-family: monospace;
+}
+
+#text:selected {
+    color: @alternative;
+    font-weight: bold;
+    border: none;
+}
+
+.example::-webkit-scrollbar {
+    display: none;
+}

@@ -1,0 +1,8 @@
+2025/07/24-11:42:49.228 175d Creating DB /home/kirubiisfyne/.config/discord/Local Storage/leveldb since it was missing.
+2025/07/24-11:42:49.470 175d Reusing MANIFEST /home/kirubiisfyne/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2025/07/24-11:47:06.182 175e Level-0 table #5: started
+2025/07/24-11:47:06.272 175e Level-0 table #5: 1556065 bytes OK
+2025/07/24-11:47:06.321 175e Delete type=0 #3
+2025/07/24-13:19:13.834 175e Level-0 table #7: started
+2025/07/24-13:19:13.927 175e Level-0 table #7: 27283 bytes OK
+2025/07/24-13:19:13.974 175e Delete type=0 #4

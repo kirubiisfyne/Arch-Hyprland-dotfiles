@@ -1,0 +1,25 @@
+2025/07/24-23:02:08.302 6c62 Reusing MANIFEST /home/kirubiisfyne/.config/chromium/Default/WebStorage/2/IndexedDB/indexeddb.leveldb/MANIFEST-000001
+2025/07/24-23:02:08.303 6c62 Recovering log #53
+2025/07/24-23:02:08.303 6c62 Reusing old log /home/kirubiisfyne/.config/chromium/Default/WebStorage/2/IndexedDB/indexeddb.leveldb/000053.log 
+2025/07/24-23:02:08.303 6c62 Delete type=2 #52
+2025/07/24-23:02:09.209 6c62 Level-0 table #58: started
+2025/07/24-23:02:09.310 6c62 Level-0 table #58: 14708 bytes OK
+2025/07/24-23:02:09.399 6c62 Delete type=0 #53
+2025/07/24-23:02:09.399 6c57 Manual compaction at level-0 from '\x00\x15\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x16\x00\x00\x00' @ 0 : 0; will stop at '\x00\x15\x01\x1f\x04\x03\x01\x03\x00N\x00E\x00W\x03\x00\x00\x00\x00\x00\x00L@\x03\x00p\xc7!\xcf\x83yB\x00\x03\x00\x00\x00\x00\x00\x00\x00@' @ 2211 : 1
+2025/07/24-23:02:09.399 6c57 Compacting 1@0 + 1@1 files
+2025/07/24-23:02:09.455 6c57 Generated table #59@0: 435 keys, 8823 bytes
+2025/07/24-23:02:09.455 6c57 Compacted 1@0 + 1@1 files => 8823 bytes
+2025/07/24-23:02:09.534 6c57 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/07/24-23:02:09.534 6c57 Delete type=2 #58
+2025/07/24-23:02:09.534 6c56 Manual compaction at level-0 from '\x00\x15\x01\x1f\x04\x03\x01\x03\x00N\x00E\x00W\x03\x00\x00\x00\x00\x00\x00L@\x03\x00p\xc7!\xcf\x83yB\x00\x03\x00\x00\x00\x00\x00\x00\x00@' @ 2211 : 1 .. '\x00\x16\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/07/24-23:02:09.535 6c56 Level-0 table #61: started
+2025/07/24-23:02:09.600 6c56 Level-0 table #61: 1914 bytes OK
+2025/07/24-23:02:09.678 6c56 Delete type=2 #55
+2025/07/24-23:02:09.678 6c56 Delete type=0 #57
+2025/07/24-23:02:09.678 6c56 Manual compaction at level-0 from '\x00\x14\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x15\x00\x00\x00' @ 0 : 0; will stop at '\x00\x16\x00\x00\xc8\x11\x00L\x00o\x00g\x00s\x00R\x00e\x00q\x00u\x00e\x00s\x00t\x00s\x00S\x00t\x00o\x00r\x00e' @ 2314 : 1
+2025/07/24-23:02:09.678 6c56 Compacting 1@0 + 1@1 files
+2025/07/24-23:02:09.756 6c56 Generated table #62@0: 433 keys, 4612 bytes
+2025/07/24-23:02:09.756 6c56 Compacted 1@0 + 1@1 files => 4612 bytes
+2025/07/24-23:02:09.800 6c56 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/07/24-23:02:09.800 6c56 Delete type=2 #61
+2025/07/24-23:02:09.800 6c56 Manual compaction at level-0 from '\x00\x16\x00\x00\xc8\x11\x00L\x00o\x00g\x00s\x00R\x00e\x00q\x00u\x00e\x00s\x00t\x00s\x00S\x00t\x00o\x00r\x00e' @ 2314 : 1 .. '\x00\x15\x00\x00\x00' @ 0 : 0; will stop at (end)

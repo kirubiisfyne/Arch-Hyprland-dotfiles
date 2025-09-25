@@ -1,0 +1,144 @@
+// -*- mode: jsonc -*-
+{
+    "layer": "top",
+    "position": "top",
+    "height": 45,
+    "spacing": 5,
+    "margin-top": 5,
+    "margin-left": 5,
+    "margin-right": 5,
+    
+
+    "modules-left": ["clock"],
+    "modules-center": ["hyprland/workspaces"],
+    "modules-right": ["wireplumber", "backlight", "battery", "group/net"],
+
+    "group/usage": {
+        "orientation": "horizontal",
+        "modules": ["memory", "temperature"]
+    },
+
+    "group/net": {
+        "orientation": "horizontal",
+        "modules": ["hyprland/language", "network", "bluetooth"]
+    },
+
+    "hyprland/workspaces": {
+        "format": "{icon}",
+        "on-click": "activate",
+        "format-icons": {
+            "1": "[ 1 ]",
+            "2": "[ 2 ]",
+            "3": "[ 3 ]",
+            "4": "[ 4 ]",
+            "5": "[ 5 ]",
+        },
+        "icon-size": 50,
+        "sort-by-number": true,
+        "persistent-workspaces": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": [],
+        },
+        "format-window-separator": " | ",
+    },
+
+    "clock": {
+        "format": "[ 󰥔  {:%I:%M:%S %p} ]",
+        "interval": 1
+    },
+
+    "wireplumber": {
+        "format": "{icon} {volume}%",
+        "format-icons": [
+        	"󰕿 [█▒▒▒▒]",
+        	"󰖀 [██▒▒▒]", 
+        	"󰖀 [███▒▒]", 
+        	"󰕾 [████▒]", 
+        	"󰕾 [█████]"],
+        "max-volume": 100,
+        "scroll-step": 5
+    },
+
+    "battery": {
+        "bat": "BAT1",
+        "interval": 1,
+        "format": "{icon} {capacity}%",
+        "format-icons": {
+        	"discharging": [
+		    	"󰁺 [█▒▒▒▒]",
+		    	"󰁼 [██▒▒▒]", 
+		    	"󰁾 [███▒▒]", 
+		    	"󰂀 [████▒]",
+		    	"󰂂 [█████]"],
+		    "charging": [
+		    	"󰢜 [█▒▒▒▒]",
+		    	"󰂇 [██▒▒▒]", 
+		    	"󰢝 [███▒▒]", 
+		    	"󰢞 [████▒]", 
+                "󰂋 [█████]"],
+            "full": "󰂅 [█████]",
+            "plugged": "󰂀 [████▒]",
+		}
+    },
+
+    "backlight": {
+        "format": "{icon} {percent}%",
+        "format-icons": [
+        	"󱩎 [█▒▒▒▒]",
+        	"󱩐 [██▒▒▒]", 
+        	"󱩑 [███▒▒]", 
+        	"󱩔 [████▒]", 
+        	"󱩖 [█████]"],
+    },
+
+    "memory": {
+        "interval": 30,
+        "format": "󰍛 {used:0.1f}G"
+    },
+
+    "temperature": {
+        "format": " {temperatureC}°C"
+    },
+
+    "network": {
+        "format": "",
+        "format-ethernet": "\udb83\udc9d ",
+        "format-wifi": "{icon} ",
+        "format-disconnected": "\udb83\udc9c ",
+        "format-icons": ["\udb82\udd2f", "\udb82\udd1f", "\udb82\udd22", "\udb82\udd25", "\udb82\udd28"],
+        "tooltip-format-wifi": "{essid} ({signalStrength}%)",
+        "tooltip-format-ethernet": "{ifname}",
+        "tooltip-format-disconnected": "Disconnected",
+    },
+
+    "bluetooth": {
+        "format": "\udb80\udcaf",
+        "format-disabled": "\udb80\udcb2",
+        "format-connected": "\udb80\udcb1",
+        "tooltip-format": "{controller_alias}\t{controller_address}",
+        "tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{device_enumerate}",
+        "tooltip-format-enumerate-connected": "{device_alias}\t{device_address}"
+    },
+
+    "hyprland/language": {
+        "format": ""
+    },
+
+    "tray": {
+    	
+        "spacing": 16
+    },
+
+	"custom/running-apps": {
+		"exec": "~/.config/waybar/scripts/running-apps.sh",
+		"interval": 5,
+		"return-type": "json",
+		"format": "{}",
+		"tooltip": true,
+		"tooltip-format": "{output}"
+	}
+
+}

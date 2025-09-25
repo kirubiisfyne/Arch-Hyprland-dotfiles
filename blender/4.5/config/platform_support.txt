@@ -1,0 +1,2 @@
+{Mesa/llvmpipe (LLVM 20.1.8, 256 bits)/4.5 (Core Profile) Mesa 25.1.6-arch1.1}=SUPPORTED
+{NVIDIA Corporation/NVIDIA GeForce RTX 3060 Laptop GPU/NVIDIA 575.64.05}=SUPPORTED

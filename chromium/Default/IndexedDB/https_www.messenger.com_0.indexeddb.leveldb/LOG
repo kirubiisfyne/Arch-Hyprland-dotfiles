@@ -1,0 +1,11 @@
+2025/09/22-01:32:18.835 840 Reusing MANIFEST /home/kirubiisfyne/.config/chromium/Default/IndexedDB/https_www.messenger.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/09/22-01:32:18.836 840 Recovering log #23
+2025/09/22-01:32:19.086 840 Reusing old log /home/kirubiisfyne/.config/chromium/Default/IndexedDB/https_www.messenger.com_0.indexeddb.leveldb/000023.log 
+2025/09/22-01:32:46.097 841 Level-0 table #29: started
+2025/09/22-01:32:46.222 841 Level-0 table #29: 1629746 bytes OK
+2025/09/22-01:32:46.325 841 Delete type=0 #23
+2025/09/22-01:32:46.369 840 Compacting 1@1 + 2@2 files
+2025/09/22-01:32:46.567 840 Generated table #30@1: 35089 keys, 2171403 bytes
+2025/09/22-01:32:46.657 840 Generated table #31@1: 4597 keys, 666070 bytes
+2025/09/22-01:32:46.657 840 Compacted 1@1 + 2@2 files => 2837473 bytes
+2025/09/22-01:32:46.702 840 compacted to: files[ 0 0 2 0 0 0 0 ]

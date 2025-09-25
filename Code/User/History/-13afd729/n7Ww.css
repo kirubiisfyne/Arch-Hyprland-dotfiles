@@ -1,0 +1,8 @@
+* {
+  font-family: "Inconsolata Nerd Font", monospace;
+  color: #eb2f00;
+  background: alpha(@background, 0.0);
+  background-color: #212121;
+}
+
+
